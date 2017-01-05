@@ -1,0 +1,133 @@
+*{margin:0;padding:0;border:0;font-family:"微软雅黑";}
+.nav{
+	margin:0 auto;
+	width:1080px;
+	height:59px;
+	background:#2c81c8;
+}
+.logo_area{
+	float:left;
+}
+.main_nav{
+	float:left;
+	margin-left:30px;
+	height:59px;
+}
+.main_nav li{
+	margin-left:20px;
+	height:59px;
+	width:100px;
+	line-height:59px;
+	text-align:center;
+	list-style:none;
+	float:left;
+}
+.main_nav li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+}
+
+.p_data{
+	float:right;
+	margin-right:20px;
+}
+.p_data li{
+	float:left;
+	margin-right:15px;
+	list-style:none;
+	height:59px;
+	line-height:59px;
+
+}
+.p_data li img{
+	position:relative;
+	top:3px;
+}
+.p_data li a{
+	text-decoration:none;
+	color:#fff;
+}
+li.admin_l{
+	position:relative;
+	height:59px;
+}
+.admin_a{
+	display:inline-block;
+	background:#2c81c8;
+	width:100px;
+	height:59px;
+	line-height:59px;
+	text-align:center;
+}
+.admin_s_l{
+	display:none;
+	position:absolute;
+	top:59px;
+	left:0px;
+}
+.admin_s_l li{
+	width:100px;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	background:#2c81c8;
+}
+.admin_s_l li a{
+	display:inline-block;
+	width:100px;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	font-size:14px;
+}
+
+
+.login_data{
+	margin:0 auto;
+	width:900px;
+}
+.f_title{
+	display:inline-block;
+	margin-left:200px;
+	margin-top:20px;
+	color:#2c81c8;
+	font-size:24px;
+}
+.login_data form{
+	margin-left:230px;
+}
+.login_data  input[type="text"],.login_data input[type="password"]{
+	margin-left:10px;
+	width:300px;
+	height:35px;
+	border:1px solid #ccc;
+}
+.t_name{
+	margin-top:30px;
+	margin-bottom:20px; 
+}
+.t_sex,.t_phone,.t_mail,.t_class,.t_psd{
+	margin-bottom:20px;
+}
+.t_name,.t_sex,.t_phone,.t_mail,.t_psd{
+	margin-left:30px;
+}
+.t_class input{
+	margin-left:7px;
+}
+.submit_btn{
+	margin-top:30px;
+	margin-left:140px;
+}
+.submit_btn input{
+	display:block;
+	width:150px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	text-decoration:none;
+	background:#2c81c8;
+	color:#fff;
+}
